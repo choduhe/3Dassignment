@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        stageText.text ="/" +TotalItemCount.ToString();
+        stageText.text ="/ " +TotalItemCount.ToString();
     }
 
     public void GetItem(int count)
