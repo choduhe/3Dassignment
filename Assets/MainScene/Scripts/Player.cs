@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
         walkDown = Input.GetButton("Walk");
-        JumpDown = Input.GetButtonDown("Jump");
+        
 
         Move = new Vector3(x, 0, z).normalized;
 
